@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+}
+
+.menu{
+    display: flex;
+    margin-left: 200px;
+    background-color: rgba(255, 255, 255, 0.699);
+
+}
+
+ul{
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    color: rgba(19, 7, 7, 0.507);
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.ativo {
+    color: black;
+}
+
+.titulo00{
+    position: relative;
+    color: blue;
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+
+}
+
+.titulo01{
+    position: relative;
+    bottom: 4px;
+    color: black;
+    font-size: 15px;
+
+}
+
+
+.section__header {
+    width: 100vw; height: 90vh;
+    background: url(background.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+.div__header {
+    width: 40%; height: 30%;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    padding: 25px;
+}
+
+.titulo__header {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.cor {
+    color: #247cff;
+}
+
+.texto__header {
+    margin-top: 10px;
+}
+
+.btn__header {
+    width: 100px; height: 30px;
+    color: #247cff;
+    background-color: white;
+    margin-top: 25px;
+    border-color: #f8f8f8;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.span__header {
+    margin-left: 60px;
+}
+
+.material-symbols-outlined {
+    margin-right: 10px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo__main {
+    width: 50%;
+    margin: 40px;
+}
+
+.titulo__conteudo {
+    font-weight: bold;
+}
+
+.texto__conteudo {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.titulo_03 {
+    height: 300px; width: 300px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 40px auto;
+    box-shadow: 0 0 2.9em rgb(163, 161, 161), 0 0 2.9em rgb(163, 161, 161);
+}
+
+.titulo_03{
+   margin-bottom: 60px;
+}
+
+.titulo_04{
+    position: relative;
+    top:45px ;
+}
+
+.titulo_04{
+    position:relative;
+    font-size: 80px;
+    color: blue;
+    left: 30px;
+    margin-bottom: 60px;
+}
+
+.titulo_05{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+}
+
+.titulo_06{
+    position: relative;
+    bottom: 25px;
+    left: 150px;
+}
