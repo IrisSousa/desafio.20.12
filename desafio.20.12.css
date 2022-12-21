@@ -307,39 +307,62 @@ li{
     margin-left: 20px;
 }
 
-.titulo__05{
-    position: relative;
-    left: 550px;
+.depoimento {
+    margin-top: 100px;
+}
+
+.titulo__depoimento {
+    text-align: center;
+    font-size: 26px;
+    margin: 50px 0px;
+}
+
+.star1::after {
+    content: "★★★☆☆";
+}
+
+.star2::after {
+    content: "★★★★☆";
+}
+
+.star3::after {
+    content: "★★★★★";
 }
 
 .bloco__caixa{
     display: flex;
+    justify-content: space-around;
 }
 
 .caixa{
- width:450px ;height:300px ;
+ width: 30%; height: 230px;
  color: white;
  background-color: black;
- margin: 30px;
+ box-sizing: border-box;
+ padding: 20px;
 }
 
 .imag__02{
-width: 100px;
-border-radius: 59px;
+    width: 50px;
+    border-radius: 59px;
+    margin-right: 20px;
 }
 
 .caixa_img{
     display: flex;
-}
-#h3__{
-    position: relative;
-    top:50px;
+    align-items: center;
+    padding-top: 30px;
 }
 
 .cor_01{
-    color: rgba(119, 119, 119, 0.281);
+    color: rgba(255, 255, 255, 0.349);
 }
 
 .cor_002{
     color:blue;
+    font-size: 20px;
+}
+
+.caixa__texto {
+    font-size: 14px;
 }
