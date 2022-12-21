@@ -47,7 +47,7 @@ li{
 
 .section__header {
     width: 100vw; height: 90vh;
-    background: url(background.jpg);
+    background: url(img/background.jpg);
     background-size: cover;
     margin: 0px auto;
 }
