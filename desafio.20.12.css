@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Pacifico&display=swap');
+
 * {
+    font-style: none;
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .menu{
     display: flex;
-    margin-left: 150px;
-    background-color: rgba(255, 255, 255, 0.699);
+    justify-content: center;
+    background-color: #ffffff;
+    width:100% ;
+    box-shadow: 0.0.0.9em #000000;
+}
+a{
+    color: #000000;
 }
 
 ul{
