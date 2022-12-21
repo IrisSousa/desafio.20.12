@@ -394,14 +394,17 @@ li{
 }
 
 .form{
-    position: absolute;
+    display: block;
     width: 60vw;
     left: 20%;
     padding: 20px;
+
 }
 .form_div{
     display: flex; 
     flex-wrap: wrap;
+    position: relative;
+    left: 250px;
 }
 
 .div_input{
@@ -411,6 +414,7 @@ li{
     height: 5vh;
     border: none;
     border-bottom: 1px solid #cccccc;
+    position: relative;
 }
 
 .div__textarea{
@@ -434,6 +438,7 @@ li{
     left: 35%;
     color: white;
     background: black;
+    left: 472px;
 }
 
 .rodape {
@@ -450,9 +455,9 @@ li{
 }
 
 .div__rodape {
+    display: inline-block;
     margin-top: 20px;
     width: 30%;
-    
 }
 
 .div__horario {
