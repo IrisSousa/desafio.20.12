@@ -148,3 +148,58 @@ li{
     bottom: 25px;
     left: 150px;
 }
+
+.img_conteudo{
+    display: flex;
+    margin: 20px 20px;
+   
+}
+
+.titulo__05{
+    position: relative;
+    left: 550px;
+}
+.img__01{
+    width:500px ;height:300px ;
+    margin-left: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.img__02{
+    width:500px ;height:300px ;
+    position: relative;
+    left: 120px;
+}
+
+.bloco__caixa{
+    display: flex;
+}
+
+.caixa{
+ width:450px ;height:300px ;
+ color: white;
+ background-color: black;
+ margin: 30px;
+}
+
+.imag__02{
+width: 100px;
+border-radius: 59px;
+}
+
+.caixa_img{
+    display: flex;
+}
+#h3__{
+    position: relative;
+    top:50px;
+}
+
+.cor_01{
+    color: rgba(119, 119, 119, 0.281);
+}
+
+.cor_002{
+    color:blue;
+}
